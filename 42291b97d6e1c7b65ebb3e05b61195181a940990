@@ -51,6 +51,24 @@
       "parentUuid": "c6681673_34508ce3",
       "revId": "42291b97d6e1c7b65ebb3e05b61195181a940990",
       "serverId": "6c5518a3-f832-4f35-b67e-d05e8f148453"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "fdfa62ac_678b2220",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2025-01-03T18:58:44Z",
+      "side": 1,
+      "message": "And now from mobile.",
+      "parentUuid": "9d48be7e_a3263473",
+      "revId": "42291b97d6e1c7b65ebb3e05b61195181a940990",
+      "serverId": "6c5518a3-f832-4f35-b67e-d05e8f148453"
     }
   ]
 }

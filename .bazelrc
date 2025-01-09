@@ -183,6 +183,7 @@ build:iwyu --output_groups=report
 build:iwyu --@com_github_storypku_bazel_iwyu//:iwyu_opts=--no_fwd_decls,--cxx17ns,--verbose=3
 build:iwyu --strategy=iwyu=sandboxed,standalone
 
+import %workspace%/.bazelrc_autodetection
 
 # Load a local file that users can use to customize bazel invocations.  This
 # should stay the last line in this file so users can override things when they

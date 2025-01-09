@@ -41,7 +41,7 @@ if [[ ! -d "${DOWNLOAD_DIR}" ]]; then
 fi
 
 readonly INSTALLER_NAME="bazel-${VERSION}-linux-x86_64"
-readonly DOWNLOAD_URL="https://software.frc971.org/Build-Dependencies/github.com/bazelbuild/bazel/releases/download/${VERSION}/${INSTALLER_NAME}"
+readonly DOWNLOAD_URL="https://realtimeroboticsgroup.org/build-dependencies/github.com/bazelbuild/bazel/releases/download/${VERSION}/${INSTALLER_NAME}"
 
 if [[ ! -d "${VERSION_DIR}" ]]; then
   echo "Downloading Bazel version ${VERSION} from ${DOWNLOAD_URL}..." >&2
